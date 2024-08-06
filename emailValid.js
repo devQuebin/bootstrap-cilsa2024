@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
       event.stopPropagation();
       alert("Por favor, ingresa un correo electrónico válido.");
       emailInput.classList.add("is-invalid");
+      console.log("invalid email");
     } else {
       emailInput.classList.remove("is-invalid");
     }
